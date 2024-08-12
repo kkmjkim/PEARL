@@ -1,0 +1,14 @@
+python -W ignore datagen/async_generate_turn_by_turn.py \
+    --api_key_name [YOUR_API_KEY_NAME] \
+    --input_path data/dialogue_input_data.json \
+    --path_to_abstract_per_user data/abstracts_per_user.json \
+    --candidates_vector_store_dir data/vector_store_per_movie \
+    --seeker_prompt_path prompts/seeker_simulator.txt \
+    --recommender_prompt_path prompts/recommender_simulator.txt \
+    --seed_dialogue_path prompts/seed_dialogue.json \
+    --save_dir results/turn_by_turn/run \
+    --model_name gpt-3.5-turbo-1106 \
+    --embedding_model_name text-embedding-ada-002 \
+    --temperature 1.0 \
+    --max_tokens 300 \
+    --num_sample 2  # remove this to run on the full dataset
