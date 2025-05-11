@@ -1,0 +1,5 @@
+{
+    "[YOUR_API_KEY_NAME]": {
+        "api_key": "[YOUR_OPENAI_API_KEY]"
+    }
+}

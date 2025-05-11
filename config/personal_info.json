@@ -1,6 +1,0 @@
-{
-    "[YOUR_API_NAME]": {
-        "api_key": "[YOUR_OPENAI_API_KEY]",
-        "org_id": "[YOUR_OPENAI_ORGANIZATION_ID]"
-    }
-}

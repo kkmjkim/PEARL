@@ -1,4 +1,4 @@
-python -W ignore datagen/async_generate_turn_by_turn.py \
+python -W ignore datagen/dialogue_generation.py \
     --api_key_name [YOUR_API_KEY_NAME] \
     --input_path data/dialogue_input_data.json \
     --path_to_abstract_per_user data/abstracts_per_user.json \
@@ -6,7 +6,7 @@ python -W ignore datagen/async_generate_turn_by_turn.py \
     --seeker_prompt_path prompts/seeker_simulator.txt \
     --recommender_prompt_path prompts/recommender_simulator.txt \
     --seed_dialogue_path prompts/seed_dialogue.json \
-    --save_dir results/turn_by_turn/run \
+    --save_dir results/run \
     --model_name gpt-3.5-turbo-1106 \
     --embedding_model_name text-embedding-ada-002 \
     --temperature 1.0 \
